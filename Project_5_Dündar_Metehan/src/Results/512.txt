@@ -1,0 +1,505 @@
+rank 0/1 : (1,1) neigh N:S -2:-2 neigh E:W -2:-2 local dims 512 x 512
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 1 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 31.504 seconds
+27319 conjugate gradient iterations, at rate of 867.159 iters/second
+842 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+rank 0/2 : (1,1) neigh N:S 1:-2 neigh E:W -2:-2 local dims 512 x 256
+rank 1/2 : (1,2) neigh N:S -2:0 neigh E:W -2:-2 local dims 512 x 256
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 2 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 15.3519 seconds
+27381 conjugate gradient iterations, at rate of 1783.56 iters/second
+847 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+rank 0/4 : (1,1) neigh N:S 2:-2 neigh E:W 1:-2 local dims 256 x 256
+rank 1/4 : (2,1) neigh N:S 3:-2 neigh E:W -2:0 local dims 256 x 256
+rank 2/4 : (1,2) neigh N:S -2:0 neigh E:W 3:-2 local dims 256 x 256
+rank 3/4 : (2,2) neigh N:S -2:1 neigh E:W -2:2 local dims 256 x 256
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 4 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 7.77181 seconds
+27340 conjugate gradient iterations, at rate of 3517.84 iters/second
+843 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+
+
+
+
+
+rank 0/1 : (1,1) neigh N:S -2:-2 neigh E:W -2:-2 local dims 512 x 512
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 1 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 19.7974 seconds
+27289 conjugate gradient iterations, at rate of 1378.42 iters/second
+837 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+rank 0/2 : (1,1) neigh N:S 1:-2 neigh E:W -2:-2 local dims 512 x 256
+rank 1/2 : (1,2) neigh N:S -2:0 neigh E:W -2:-2 local dims 512 x 256
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 2 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 24.7158 seconds
+27346 conjugate gradient iterations, at rate of 1106.42 iters/second
+843 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+rank 0/4 : (1,1) neigh N:S 2:-2 neigh E:W 1:-2 local dims 256 x 256
+rank 1/4 : (2,1) neigh N:S 3:-2 neigh E:W -2:0 local dims 256 x 256
+rank 2/4 : (1,2) neigh N:S -2:0 neigh E:W 3:-2 local dims 256 x 256
+rank 3/4 : (2,2) neigh N:S -2:1 neigh E:W -2:2 local dims 256 x 256
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 4 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 15.2266 seconds
+27369 conjugate gradient iterations, at rate of 1797.44 iters/second
+845 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+
+
+
+
+
+rank 0/1 : (1,1) neigh N:S -2:-2 neigh E:W -2:-2 local dims 512 x 512
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 1 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 16.6284 seconds
+27257 conjugate gradient iterations, at rate of 1639.18 iters/second
+834 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+rank 0/2 : (1,1) neigh N:S 1:-2 neigh E:W -2:-2 local dims 512 x 256
+rank 1/2 : (1,2) neigh N:S -2:0 neigh E:W -2:-2 local dims 512 x 256
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 2 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 16.1792 seconds
+27288 conjugate gradient iterations, at rate of 1686.61 iters/second
+837 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+rank 0/4 : (1,1) neigh N:S 2:-2 neigh E:W 1:-2 local dims 256 x 256
+rank 1/4 : (2,1) neigh N:S 3:-2 neigh E:W -2:0 local dims 256 x 256
+rank 2/4 : (1,2) neigh N:S -2:0 neigh E:W 3:-2 local dims 256 x 256
+rank 3/4 : (2,2) neigh N:S -2:1 neigh E:W -2:2 local dims 256 x 256
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 4 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 15.906 seconds
+27338 conjugate gradient iterations, at rate of 1718.73 iters/second
+842 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+
+
+
+
+
+rank 0/1 : (1,1) neigh N:S -2:-2 neigh E:W -2:-2 local dims 512 x 512
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 1 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 15.3954 seconds
+27310 conjugate gradient iterations, at rate of 1773.91 iters/second
+840 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+rank 0/2 : (1,1) neigh N:S 1:-2 neigh E:W -2:-2 local dims 512 x 256
+rank 1/2 : (1,2) neigh N:S -2:0 neigh E:W -2:-2 local dims 512 x 256
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 2 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 15.3366 seconds
+27434 conjugate gradient iterations, at rate of 1788.8 iters/second
+852 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+rank 0/4 : (1,1) neigh N:S 2:-2 neigh E:W 1:-2 local dims 256 x 256
+rank 1/4 : (2,1) neigh N:S 3:-2 neigh E:W -2:0 local dims 256 x 256
+rank 2/4 : (1,2) neigh N:S -2:0 neigh E:W 3:-2 local dims 256 x 256
+rank 3/4 : (2,2) neigh N:S -2:1 neigh E:W -2:2 local dims 256 x 256
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 4 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 16.804 seconds
+27330 conjugate gradient iterations, at rate of 1626.4 iters/second
+843 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+
+
+
+
+
+rank 0/1 : (1,1) neigh N:S -2:-2 neigh E:W -2:-2 local dims 512 x 512
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 1 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 20.7046 seconds
+27325 conjugate gradient iterations, at rate of 1319.76 iters/second
+842 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+rank 0/2 : (1,1) neigh N:S 1:-2 neigh E:W -2:-2 local dims 512 x 256
+rank 1/2 : (1,2) neigh N:S -2:0 neigh E:W -2:-2 local dims 512 x 256
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 2 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 18.9309 seconds
+27307 conjugate gradient iterations, at rate of 1442.46 iters/second
+839 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+rank 0/4 : (1,1) neigh N:S 2:-2 neigh E:W 1:-2 local dims 256 x 256
+rank 1/4 : (2,1) neigh N:S 3:-2 neigh E:W -2:0 local dims 256 x 256
+rank 2/4 : (1,2) neigh N:S -2:0 neigh E:W 3:-2 local dims 256 x 256
+rank 3/4 : (2,2) neigh N:S -2:1 neigh E:W -2:2 local dims 256 x 256
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 4 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 20.5479 seconds
+27317 conjugate gradient iterations, at rate of 1329.43 iters/second
+840 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+
+
+
+
+
+rank 0/1 : (1,1) neigh N:S -2:-2 neigh E:W -2:-2 local dims 512 x 512
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 1 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 18.1811 seconds
+27342 conjugate gradient iterations, at rate of 1503.87 iters/second
+841 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+rank 0/2 : (1,1) neigh N:S 1:-2 neigh E:W -2:-2 local dims 512 x 256
+rank 1/2 : (1,2) neigh N:S -2:0 neigh E:W -2:-2 local dims 512 x 256
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 2 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 16.8024 seconds
+27292 conjugate gradient iterations, at rate of 1624.29 iters/second
+838 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+rank 0/4 : (1,1) neigh N:S 2:-2 neigh E:W 1:-2 local dims 256 x 256
+rank 1/4 : (2,1) neigh N:S 3:-2 neigh E:W -2:0 local dims 256 x 256
+rank 2/4 : (1,2) neigh N:S -2:0 neigh E:W 3:-2 local dims 256 x 256
+rank 3/4 : (2,2) neigh N:S -2:1 neigh E:W -2:2 local dims 256 x 256
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 4 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 24.3619 seconds
+27285 conjugate gradient iterations, at rate of 1119.99 iters/second
+839 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+
+
+
+
+
+rank 0/1 : (1,1) neigh N:S -2:-2 neigh E:W -2:-2 local dims 512 x 512
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 1 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 18.9527 seconds
+27381 conjugate gradient iterations, at rate of 1444.7 iters/second
+848 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+rank 0/2 : (1,1) neigh N:S 1:-2 neigh E:W -2:-2 local dims 512 x 256
+rank 1/2 : (1,2) neigh N:S -2:0 neigh E:W -2:-2 local dims 512 x 256
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 2 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 18.1033 seconds
+27375 conjugate gradient iterations, at rate of 1512.16 iters/second
+846 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+rank 0/4 : (1,1) neigh N:S 2:-2 neigh E:W 1:-2 local dims 256 x 256
+rank 1/4 : (2,1) neigh N:S 3:-2 neigh E:W -2:0 local dims 256 x 256
+rank 2/4 : (1,2) neigh N:S -2:0 neigh E:W 3:-2 local dims 256 x 256
+rank 3/4 : (2,2) neigh N:S -2:1 neigh E:W -2:2 local dims 256 x 256
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 4 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 29.3494 seconds
+27365 conjugate gradient iterations, at rate of 932.388 iters/second
+843 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+
+
+
+
+
+rank 0/1 : (1,1) neigh N:S -2:-2 neigh E:W -2:-2 local dims 512 x 512
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 1 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 16.9715 seconds
+27328 conjugate gradient iterations, at rate of 1610.23 iters/second
+841 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+rank 0/2 : (1,1) neigh N:S 1:-2 neigh E:W -2:-2 local dims 512 x 256
+rank 1/2 : (1,2) neigh N:S -2:0 neigh E:W -2:-2 local dims 512 x 256
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 2 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 17.9935 seconds
+27273 conjugate gradient iterations, at rate of 1515.71 iters/second
+836 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+rank 0/4 : (1,1) neigh N:S 2:-2 neigh E:W 1:-2 local dims 256 x 256
+rank 1/4 : (2,1) neigh N:S 3:-2 neigh E:W -2:0 local dims 256 x 256
+rank 2/4 : (1,2) neigh N:S -2:0 neigh E:W 3:-2 local dims 256 x 256
+rank 3/4 : (2,2) neigh N:S -2:1 neigh E:W -2:2 local dims 256 x 256
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 4 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 32.8263 seconds
+27266 conjugate gradient iterations, at rate of 830.615 iters/second
+836 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+
+
+
+
+
+rank 0/1 : (1,1) neigh N:S -2:-2 neigh E:W -2:-2 local dims 512 x 512
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 1 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 18.5077 seconds
+27355 conjugate gradient iterations, at rate of 1478.03 iters/second
+843 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+rank 0/2 : (1,1) neigh N:S 1:-2 neigh E:W -2:-2 local dims 512 x 256
+rank 1/2 : (1,2) neigh N:S -2:0 neigh E:W -2:-2 local dims 512 x 256
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 2 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 19.3775 seconds
+27266 conjugate gradient iterations, at rate of 1407.1 iters/second
+836 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+rank 0/4 : (1,1) neigh N:S 2:-2 neigh E:W 1:-2 local dims 256 x 256
+rank 1/4 : (2,1) neigh N:S 3:-2 neigh E:W -2:0 local dims 256 x 256
+rank 2/4 : (1,2) neigh N:S -2:0 neigh E:W 3:-2 local dims 256 x 256
+rank 3/4 : (2,2) neigh N:S -2:1 neigh E:W -2:2 local dims 256 x 256
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 4 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 37.1002 seconds
+27360 conjugate gradient iterations, at rate of 737.463 iters/second
+844 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+
+
+
+
+
+rank 0/1 : (1,1) neigh N:S -2:-2 neigh E:W -2:-2 local dims 512 x 512
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 1 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 18.2215 seconds
+27313 conjugate gradient iterations, at rate of 1498.94 iters/second
+841 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+rank 0/2 : (1,1) neigh N:S 1:-2 neigh E:W -2:-2 local dims 512 x 256
+rank 1/2 : (1,2) neigh N:S -2:0 neigh E:W -2:-2 local dims 512 x 256
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 2 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 19.7533 seconds
+27336 conjugate gradient iterations, at rate of 1383.87 iters/second
+843 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+rank 0/4 : (1,1) neigh N:S 2:-2 neigh E:W 1:-2 local dims 256 x 256
+rank 1/4 : (2,1) neigh N:S 3:-2 neigh E:W -2:0 local dims 256 x 256
+rank 2/4 : (1,2) neigh N:S -2:0 neigh E:W 3:-2 local dims 256 x 256
+rank 3/4 : (2,2) neigh N:S -2:1 neigh E:W -2:2 local dims 256 x 256
+========================================================================
+                      Welcome to mini-stencil!
+version   :: OpenMP with MPI : 4 MPI ranks
+mesh      :: 512 * 512 dx = 0.00195695
+time      :: 100 time steps from 0 .. 0.01
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 40.6972 seconds
+27306 conjugate gradient iterations, at rate of 670.955 iters/second
+840 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
