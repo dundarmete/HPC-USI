@@ -1,0 +1,384 @@
+metehandundar@metehan-mbp src % export OMP_NUM_THREADS=1
+./main 64 100 0.005
+========================================================================
+                      Welcome to mini-stencil!
+version   :: C++ OpenMP
+threads   :: 1
+mesh      :: 64 * 64 dx = 0.015873
+time      :: 100 time steps from 0 .. 0.005
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 0.03299 seconds
+1007 conjugate gradient iterations, at rate of 30524.4 iters/second
+301 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+metehandundar@metehan-mbp src % export OMP_NUM_THREADS=2
+./main 64 100 0.005
+========================================================================
+                      Welcome to mini-stencil!
+version   :: C++ OpenMP
+threads   :: 2
+mesh      :: 64 * 64 dx = 0.015873
+time      :: 100 time steps from 0 .. 0.005
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 0.116395 seconds
+1007 conjugate gradient iterations, at rate of 8651.57 iters/second
+301 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+metehandundar@metehan-mbp src % export OMP_NUM_THREADS=3
+./main 64 100 0.005
+========================================================================
+                      Welcome to mini-stencil!
+version   :: C++ OpenMP
+threads   :: 3
+mesh      :: 64 * 64 dx = 0.015873
+time      :: 100 time steps from 0 .. 0.005
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 0.145573 seconds
+1007 conjugate gradient iterations, at rate of 6917.49 iters/second
+301 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+metehandundar@metehan-mbp src % export OMP_NUM_THREADS=4
+./main 64 100 0.005
+========================================================================
+                      Welcome to mini-stencil!
+version   :: C++ OpenMP
+threads   :: 4
+mesh      :: 64 * 64 dx = 0.015873
+time      :: 100 time steps from 0 .. 0.005
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 0.189811 seconds
+1007 conjugate gradient iterations, at rate of 5305.28 iters/second
+301 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+metehandundar@metehan-mbp src % export OMP_NUM_THREADS=5
+./main 64 100 0.005
+========================================================================
+                      Welcome to mini-stencil!
+version   :: C++ OpenMP
+threads   :: 5
+mesh      :: 64 * 64 dx = 0.015873
+time      :: 100 time steps from 0 .. 0.005
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 0.216437 seconds
+1007 conjugate gradient iterations, at rate of 4652.62 iters/second
+301 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+metehandundar@metehan-mbp src % export OMP_NUM_THREADS=6
+./main 64 100 0.005
+========================================================================
+                      Welcome to mini-stencil!
+version   :: C++ OpenMP
+threads   :: 6
+mesh      :: 64 * 64 dx = 0.015873
+time      :: 100 time steps from 0 .. 0.005
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 0.245556 seconds
+1007 conjugate gradient iterations, at rate of 4100.9 iters/second
+301 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+metehandundar@metehan-mbp src % export OMP_NUM_THREADS=7
+./main 64 100 0.005
+========================================================================
+                      Welcome to mini-stencil!
+version   :: C++ OpenMP
+threads   :: 7
+mesh      :: 64 * 64 dx = 0.015873
+time      :: 100 time steps from 0 .. 0.005
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 0.352919 seconds
+1007 conjugate gradient iterations, at rate of 2853.35 iters/second
+301 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+metehandundar@metehan-mbp src % export OMP_NUM_THREADS=8
+./main 64 100 0.005
+========================================================================
+                      Welcome to mini-stencil!
+version   :: C++ OpenMP
+threads   :: 8
+mesh      :: 64 * 64 dx = 0.015873
+time      :: 100 time steps from 0 .. 0.005
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 0.286135 seconds
+1007 conjugate gradient iterations, at rate of 3519.32 iters/second
+301 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+metehandundar@metehan-mbp src % export OMP_NUM_THREADS=9
+./main 64 100 0.005
+========================================================================
+                      Welcome to mini-stencil!
+version   :: C++ OpenMP
+threads   :: 9
+mesh      :: 64 * 64 dx = 0.015873
+time      :: 100 time steps from 0 .. 0.005
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 0.328107 seconds
+1007 conjugate gradient iterations, at rate of 3069.12 iters/second
+301 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+metehandundar@metehan-mbp src % export OMP_NUM_THREADS=10
+./main 64 100 0.005
+========================================================================
+                      Welcome to mini-stencil!
+version   :: C++ OpenMP
+threads   :: 10
+mesh      :: 64 * 64 dx = 0.015873
+time      :: 100 time steps from 0 .. 0.005
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 0.381648 seconds
+1007 conjugate gradient iterations, at rate of 2638.56 iters/second
+301 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+metehandundar@metehan-mbp src % export OMP_NUM_THREADS=11
+./main 64 100 0.005
+========================================================================
+                      Welcome to mini-stencil!
+version   :: C++ OpenMP
+threads   :: 11
+mesh      :: 64 * 64 dx = 0.015873
+time      :: 100 time steps from 0 .. 0.005
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 0.362772 seconds
+1007 conjugate gradient iterations, at rate of 2775.85 iters/second
+301 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+metehandundar@metehan-mbp src % export OMP_NUM_THREADS=12
+./main 64 100 0.005
+========================================================================
+                      Welcome to mini-stencil!
+version   :: C++ OpenMP
+threads   :: 12
+mesh      :: 64 * 64 dx = 0.015873
+time      :: 100 time steps from 0 .. 0.005
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 0.428834 seconds
+1007 conjugate gradient iterations, at rate of 2348.23 iters/second
+301 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+metehandundar@metehan-mbp src % export OMP_NUM_THREADS=13
+./main 64 100 0.005
+========================================================================
+                      Welcome to mini-stencil!
+version   :: C++ OpenMP
+threads   :: 13
+mesh      :: 64 * 64 dx = 0.015873
+time      :: 100 time steps from 0 .. 0.005
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 0.455101 seconds
+1007 conjugate gradient iterations, at rate of 2212.7 iters/second
+301 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+metehandundar@metehan-mbp src % export OMP_NUM_THREADS=14
+./main 64 100 0.005
+========================================================================
+                      Welcome to mini-stencil!
+version   :: C++ OpenMP
+threads   :: 14
+mesh      :: 64 * 64 dx = 0.015873
+time      :: 100 time steps from 0 .. 0.005
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 0.476899 seconds
+1007 conjugate gradient iterations, at rate of 2111.56 iters/second
+301 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+metehandundar@metehan-mbp src % export OMP_NUM_THREADS=15
+./main 64 100 0.005
+========================================================================
+                      Welcome to mini-stencil!
+version   :: C++ OpenMP
+threads   :: 15
+mesh      :: 64 * 64 dx = 0.015873
+time      :: 100 time steps from 0 .. 0.005
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 0.422788 seconds
+1007 conjugate gradient iterations, at rate of 2381.81 iters/second
+301 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+metehandundar@metehan-mbp src % export OMP_NUM_THREADS=16
+./main 64 100 0.005
+========================================================================
+                      Welcome to mini-stencil!
+version   :: C++ OpenMP
+threads   :: 16
+mesh      :: 64 * 64 dx = 0.015873
+time      :: 100 time steps from 0 .. 0.005
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 0.489551 seconds
+1007 conjugate gradient iterations, at rate of 2056.99 iters/second
+301 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+metehandundar@metehan-mbp src % export OMP_NUM_THREADS=17
+./main 64 100 0.005
+========================================================================
+                      Welcome to mini-stencil!
+version   :: C++ OpenMP
+threads   :: 17
+mesh      :: 64 * 64 dx = 0.015873
+time      :: 100 time steps from 0 .. 0.005
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 0.460122 seconds
+1007 conjugate gradient iterations, at rate of 2188.55 iters/second
+301 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+metehandundar@metehan-mbp src % export OMP_NUM_THREADS=18
+./main 64 100 0.005
+========================================================================
+                      Welcome to mini-stencil!
+version   :: C++ OpenMP
+threads   :: 18
+mesh      :: 64 * 64 dx = 0.015873
+time      :: 100 time steps from 0 .. 0.005
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 0.61576 seconds
+1007 conjugate gradient iterations, at rate of 1635.38 iters/second
+301 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+metehandundar@metehan-mbp src % export OMP_NUM_THREADS=19
+./main 64 100 0.005
+========================================================================
+                      Welcome to mini-stencil!
+version   :: C++ OpenMP
+threads   :: 19
+mesh      :: 64 * 64 dx = 0.015873
+time      :: 100 time steps from 0 .. 0.005
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 0.503126 seconds
+1007 conjugate gradient iterations, at rate of 2001.49 iters/second
+301 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+metehandundar@metehan-mbp src % export OMP_NUM_THREADS=20
+./main 64 100 0.005
+========================================================================
+                      Welcome to mini-stencil!
+version   :: C++ OpenMP
+threads   :: 20
+mesh      :: 64 * 64 dx = 0.015873
+time      :: 100 time steps from 0 .. 0.005
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 0.523267 seconds
+1007 conjugate gradient iterations, at rate of 1924.45 iters/second
+301 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+metehandundar@metehan-mbp src % export OMP_NUM_THREADS=21
+./main 64 100 0.005
+========================================================================
+                      Welcome to mini-stencil!
+version   :: C++ OpenMP
+threads   :: 21
+mesh      :: 64 * 64 dx = 0.015873
+time      :: 100 time steps from 0 .. 0.005
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 0.593459 seconds
+1007 conjugate gradient iterations, at rate of 1696.83 iters/second
+301 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+metehandundar@metehan-mbp src % export OMP_NUM_THREADS=22
+./main 64 100 0.005
+========================================================================
+                      Welcome to mini-stencil!
+version   :: C++ OpenMP
+threads   :: 22
+mesh      :: 64 * 64 dx = 0.015873
+time      :: 100 time steps from 0 .. 0.005
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 0.596121 seconds
+1007 conjugate gradient iterations, at rate of 1689.25 iters/second
+301 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+metehandundar@metehan-mbp src % export OMP_NUM_THREADS=23
+./main 64 100 0.005
+========================================================================
+                      Welcome to mini-stencil!
+version   :: C++ OpenMP
+threads   :: 23
+mesh      :: 64 * 64 dx = 0.015873
+time      :: 100 time steps from 0 .. 0.005
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 0.644467 seconds
+1007 conjugate gradient iterations, at rate of 1562.53 iters/second
+301 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
+metehandundar@metehan-mbp src % export OMP_NUM_THREADS=24
+./main 64 100 0.005
+========================================================================
+                      Welcome to mini-stencil!
+version   :: C++ OpenMP
+threads   :: 24
+mesh      :: 64 * 64 dx = 0.015873
+time      :: 100 time steps from 0 .. 0.005
+iteration :: CG 200, Newton 50, tolerance 1e-06
+========================================================================
+--------------------------------------------------------------------------------
+simulation took 0.706301 seconds
+1007 conjugate gradient iterations, at rate of 1425.74 iters/second
+301 newton iterations
+--------------------------------------------------------------------------------
+Goodbye!
