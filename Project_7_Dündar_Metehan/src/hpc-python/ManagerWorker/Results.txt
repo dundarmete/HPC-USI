@@ -1,0 +1,76 @@
+MPI initialized with     2 processes
+Run took 5.704123 seconds
+Process     1 has done         50 tasks
+Done.
+MPI initialized with     2 processes
+Run took 5.212500 seconds
+Process     1 has done        100 tasks
+Done.
+MPI initialized with     4 processes
+Run took 2.428081 seconds
+Process     1 has done         17 tasks
+Process     2 has done         17 tasks
+Process     3 has done         16 tasks
+Done.
+MPI initialized with     4 processes
+Run took 2.164654 seconds
+Process     1 has done         33 tasks
+Process     2 has done         34 tasks
+Process     3 has done         33 tasks
+Done.
+MPI initialized with     8 processes
+Run took 1.698467 seconds
+Process     1 has done          7 tasks
+Process     2 has done          7 tasks
+Process     3 has done          7 tasks
+Process     4 has done          8 tasks
+Process     5 has done          7 tasks
+Process     6 has done          7 tasks
+Process     7 has done          7 tasks
+Done.
+MPI initialized with     8 processes
+Run took 1.372608 seconds
+Process     1 has done         14 tasks
+Process     2 has done         15 tasks
+Process     3 has done         14 tasks
+Process     4 has done         15 tasks
+Process     5 has done         14 tasks
+Process     6 has done         14 tasks
+Process     7 has done         14 tasks
+Done.
+MPI initialized with    16 processes
+Run took 1.564284 seconds
+Process     1 has done          3 tasks
+Process     2 has done          4 tasks
+Process     3 has done          3 tasks
+Process     4 has done          4 tasks
+Process     5 has done          3 tasks
+Process     6 has done          3 tasks
+Process     7 has done          3 tasks
+Process     8 has done          3 tasks
+Process     9 has done          3 tasks
+Process    10 has done          3 tasks
+Process    11 has done          4 tasks
+Process    12 has done          4 tasks
+Process    13 has done          4 tasks
+Process    14 has done          3 tasks
+Process    15 has done          3 tasks
+Done.
+MPI initialized with    16 processes
+Run took 1.250128 seconds
+Process     1 has done          6 tasks
+Process     2 has done          6 tasks
+Process     3 has done          6 tasks
+Process     4 has done          7 tasks
+Process     5 has done          6 tasks
+Process     6 has done          7 tasks
+Process     7 has done          7 tasks
+Process     8 has done          7 tasks
+Process     9 has done          7 tasks
+Process    10 has done          7 tasks
+Process    11 has done          7 tasks
+Process    12 has done          7 tasks
+Process    13 has done          7 tasks
+Process    14 has done          6 tasks
+Process    15 has done          7 tasks
+Done.
